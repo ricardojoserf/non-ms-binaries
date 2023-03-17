@@ -9,6 +9,8 @@ Then it injects shellcode in the spawned process using (*VirtualAllocEx* + *Writ
 - dropper: It creates Notepad process and downloads the payload from a remote server.
 
 
+![image](image.png)
+
 ### Sources:
 
 - [https://github.com/leoloobeek/csharp/](https://github.com/leoloobeek/csharp/)

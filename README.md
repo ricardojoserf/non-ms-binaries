@@ -4,9 +4,9 @@ Code snippet to create a process using the "PROCESS_CREATION_MITIGATION_POLICY_B
 
 Then it injects shellcode in the spawned process using (*VirtualAllocEx* + *WriteProcessMemory* + *VirtualProtectEx* + *CreateRemoteThread* + *QueueUserAPC*):
 
-- calc: It creates Notepad process and the hardcoded payload spawns the calculator.
+- [calc](https://github.com/ricardojoserf/non-ms-binaries/tree/main/calc): It creates Notepad process and the hardcoded payload spawns the calculator.
 
-- dropper: It creates Notepad process and downloads the payload from a remote server.
+- [dropper](https://github.com/ricardojoserf/non-ms-binaries/tree/main/dropper): It creates Notepad process and downloads the payload from a remote server.
 
 
 ![image](image.png)
